@@ -1,0 +1,9 @@
+<div class="span6">
+  <h4>Current user: <i>{{ currentUser.name }}</i></h4>
+  <h4>Friends</h4>
+  <ul ng-repeat="friend in friends">
+    <a ng-click="openFriend(friend)">{{friend.name}}</a>
+  </ul>
+</div>
+
+<a href='#/addstatus'><button class="btn">Add Status</button></a>

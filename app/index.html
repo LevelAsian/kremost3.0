@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Patch - Update your friends</title>
+    <link rel="stylesheet" href="app/vendor/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="app/css/app.css"/>
+  </head>
+  <body>
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <h3 class="muted">Patch</h3>
+        <a href="#/friends"><button class="btn">Friends</button></a>
+        <a href="#/addstatus"><button class="btn">Add Status</button></a>
+      </div>
+
+      <hr>
+
+      <div ng-view>
+      </div>
+    </div>
+
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    -->
+    <script src="app/vendor/js/angular/angular.js"></script>
+    <script src="app/vendor/js/angular/angular-resource.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/services.js"></script>
+    <script src="app/js/controllers.js"></script>
+    <script src="app/js/filters.js"></script>
+    <script src="app/js/directives.js"></script>
+  </body>
+</html>
