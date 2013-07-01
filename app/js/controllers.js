@@ -61,7 +61,7 @@ angular.module('myApp.controllers', [])
 
         $scope.addStatus = function() {
             $http.post('/api/addstatus/', $scope.status)
-                .success(function(data){
+                .success(function(){
                     $location.path('/');
                 });
             $scope.status.text = "";

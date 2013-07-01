@@ -4,11 +4,10 @@
 
         <div header></div>
 
-        <h4>Current user: <i>{{ currentUser.name }}</i></h4>
-        <h4>Friends</h4>
-        <ul ng-repeat="friend in friends">
-            <a ng-click="openFriend(friend)">{{friend.name}}</a>
-        </ul>
+        <a ng-click="openFriend(currentUser)"> <i class="icon-home"></i> {{ currentUser.name }}</a>
+        <div ng-repeat="friend in friends">
+            <a ng-click="openFriend(friend)"> <i class="icon-user"></i>{{friend.name}}</a>
+        </div>
 
         <div footer></div>
 
