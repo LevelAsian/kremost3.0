@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/addstatus.html" afterPath="$PROJECT_DIR$/app/partials/addstatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friends.html" afterPath="$PROJECT_DIR$/app/partials/friends.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372610013083" ignored="false" />
-    <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712191970" ignored="false" />
+    <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372713323837" ignored="false" />
     <file path="/index.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372608644239" ignored="false" />
     <file path="/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372682910335" ignored="false" />
     <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372682963047" ignored="false" />
@@ -20,7 +19,7 @@
     <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613676782" ignored="false" />
     <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372690227272" ignored="false" />
     <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372690293594" ignored="false" />
-    <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712891763" ignored="false" />
+    <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712996660" ignored="false" />
     <file path="/register.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685579517" ignored="false" />
     <file path="/addstatus.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712405121" ignored="false" />
     <file path="/directives.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372708510790" ignored="false" />
@@ -44,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="396" selection-end="396" vertical-scroll-proportion="-9.375">
+            <state line="27" column="23" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5712271">
               <folding />
             </state>
           </provider>
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friends.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="friends.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.19040902">
+            <state line="16" column="57" selection-start="358" selection-end="358" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -119,10 +118,10 @@
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/partials/header.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/partials/addstatus.html" />
         <option value="$PROJECT_DIR$/app/partials/friends.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -436,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="396" selection-end="396" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="-2.5">
@@ -466,7 +458,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.19040902">
+        <state line="16" column="57" selection-start="358" selection-end="358" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5712271">
           <folding />
         </state>
       </provider>
