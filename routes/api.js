@@ -39,3 +39,15 @@ exports.friend = function(req, res) {
     res.send(docs)
   });
 };
+
+exports.addfriend = function(req, res){
+    console.log("friend email: " + req.body.friendemail);
+    console.log("user email: " + req.body.CurrentUserMail);
+
+    User.update({ email: req.body.CurrentUserMail},
+        {$push: {'friends': req.body.friendemail }},
+        function(err, user){
+            res.send(user);
+        })
+}
+

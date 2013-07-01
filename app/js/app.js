@@ -25,6 +25,10 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 
             templateUrl: '/app/partials/addstatus.html',
             controller: 'AddStatusCtrl'})
 
+        $routeProvider.when('/addfriend', {
+            templateUrl: '/app/partials/addfriend.html',
+            controller: 'AddFriendCtrl'})
+
         $routeProvider.otherwise({
             redirectTo: '/'});
     }]);

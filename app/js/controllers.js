@@ -75,6 +75,17 @@ angular.module('myApp.controllers', [])
                 $scope.friend.name = data.name;
                 $scope.friend.statuses = data.statuses;
               });
+    })
+    .controller('AddFriendCtrl', function($scope, $location, $http){
+        $scope.friend = {};
+        $scope.friend.CurrentUserMail = currentUser.email;
+
+        $scope.addFriend = function() {
+            $http.post('/api/addfriend/', $scope.friend)
+                .success(function(data){
+                    $location.path('/');
+                });
+        }
     });
 
 
