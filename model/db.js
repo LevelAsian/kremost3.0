@@ -7,7 +7,7 @@ var userSchema = new mongoose.Schema({
   password: String,
   email: String,
   friends: [],
-  status: []
+  statuses: []
 });
 
 module.exports = db.model('users', userSchema);

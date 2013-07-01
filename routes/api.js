@@ -28,7 +28,7 @@ exports.register = function(req, res) {
 exports.addstatus = function(req, res){
     console.log("new status: " + req.body.text);
 
-    User.update({ email: req.body.email}, {$push: {status: req.body.text}},
+    User.update({email: req.body.email}, {$push: {statuses: req.body.text}},
     function(err, user){
         res.send(user);
     });

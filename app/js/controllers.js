@@ -64,6 +64,7 @@ angular.module('myApp.controllers', [])
                 .success(function(data){
                     $location.path('/');
                 });
+            $scope.status.text = "";
         }
     })
 
