@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friend.html" afterPath="$PROJECT_DIR$/app/partials/friend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/db.js" afterPath="$PROJECT_DIR$/model/db.js" />
     </list>
     <ignored path="app2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +18,7 @@
     <file path="/users.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613772786" ignored="false" />
     <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613676782" ignored="false" />
     <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372754936513" ignored="false" />
-    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372755338401" ignored="false" />
+    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372765242353" ignored="false" />
     <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714069300" ignored="false" />
     <file path="/register.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685579517" ignored="false" />
     <file path="/addstatus.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712405121" ignored="false" />
@@ -46,7 +47,7 @@
       <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="49" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+            <state line="6" column="35" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,10 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="79" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+            <state line="33" column="119" selection-start="853" selection-end="853" vertical-scroll-proportion="0.4761255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friends.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="24" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -73,7 +83,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="28" column="60" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friend.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="friend.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.084626235">
+            <state line="6" column="31" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -126,11 +136,11 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/partials/friends.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
-        <option value="$PROJECT_DIR$/routes/api.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/model/db.js" />
         <option value="$PROJECT_DIR$/app/partials/friend.html" />
+        <option value="$PROJECT_DIR$/model/db.js" />
+        <option value="$PROJECT_DIR$/routes/api.js" />
       </list>
     </option>
   </component>
@@ -416,11 +426,6 @@
         <state line="36" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="0.7366985" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="10" selection-end="24" vertical-scroll-proportion="0.021156559" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="53" selection-start="639" selection-end="639" vertical-scroll-proportion="0.5500705" />
@@ -445,30 +450,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="49" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="35" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="79" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -480,9 +464,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="60" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.084626235">
+        <state line="6" column="31" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="119" selection-start="853" selection-end="853" vertical-scroll-proportion="0.4761255">
           <folding />
         </state>
       </provider>

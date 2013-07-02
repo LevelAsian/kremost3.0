@@ -27,7 +27,6 @@ exports.register = function(req, res) {
 
 exports.addstatus = function(req, res){
     console.log("new status: " + req.body.text);
-    console.log("email: " + req.body.email);
 
     var date = new Date();
 
