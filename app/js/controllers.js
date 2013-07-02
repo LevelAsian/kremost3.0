@@ -21,6 +21,8 @@ angular.module('myApp.controllers', [])
                         $location.path('/friends');
                         currentUser = new Person(User.email, User.name, User.friends);
                         $scope.user=null;
+                        console.log("Heihei");
+                        console.log(User.email);
                     } else {
                         $scope.user.text = 'Try again..';
                     }
@@ -29,6 +31,7 @@ angular.module('myApp.controllers', [])
                 error(function() {
                     $scope.user.text = 'Try again..';
                     console.log('Nå fucka du opp servern!!! fikser det i v2.')
+                    console.log("heihei");
                 });
         }
     })
@@ -80,11 +83,20 @@ angular.module('myApp.controllers', [])
         $scope.friend = {};
         $scope.friend.CurrentUserMail = currentUser.email;
 
+        $scope.test = "";
+
+
         $scope.addFriend = function() {
-            $http.post('/api/addfriend/', $scope.friend)
-                .success(function(data){
-                    $location.path('/');
-                });
+
+            if($scope.friend.friendemail == currentUser.email){
+                $scope.test = "Cannot add yourself as a friend!";
+            }
+            else{
+                $http.post('/api/addfriend/', $scope.friend)
+                    .success(function(data){
+                        $location.path('/');
+                    });
+            }
         }
     });
 
