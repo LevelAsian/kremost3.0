@@ -4,7 +4,7 @@ kremost3.0
 patch - notes v0.0.1
 
 
-patch - notes v0.0.2
+patch - notes v0.0.2 X
  - Bra login
  - Add bilde
  - Vis bilde
