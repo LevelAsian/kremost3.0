@@ -37,14 +37,14 @@ angular.module('myApp.controllers', [])
     })
 
     .controller('FriendsCtrl', function($scope, $http, $location) {
-      $scope.currentUser = currentUser;
-      $http.get('/api/friends/' + currentUser.email).
-              success(function(friends) {
+        $scope.currentUser = currentUser;
+        $http.get('/api/friends/' + currentUser.email).
+            success(function(friends) {
                 $scope.friends = friends;
-              });
-      $scope.openFriend = function(friend) {
-        $location.path('/friend/' + friend.email);
-      }
+            });
+        $scope.openFriend = function(friend) {
+            $location.path('/friend/' + friend.email);
+        }
     })
 
     .controller('RegisterCtrl', function($scope, $http, $location){
@@ -72,12 +72,12 @@ angular.module('myApp.controllers', [])
     })
 
     .controller('FriendCtrl', function($scope, $routeParams, $http, $location) {
-      $scope.friend = {};
-      $http.get('/api/friend/' + $routeParams.email).
-              success(function(data) {
+        $scope.friend = {};
+        $http.get('/api/friend/' + $routeParams.email).
+            success(function(data) {
                 $scope.friend.name = data.name;
                 $scope.friend.statuses = data.statuses;
-              });
+            });
     })
     .controller('AddFriendCtrl', function($scope, $location, $http){
         $scope.friend = {};

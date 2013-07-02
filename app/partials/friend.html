@@ -1,7 +1,8 @@
 <div class="span6">
-  <h4>{{friend.name}}</h4>
-  <h4>Status</h4>
-  <ul ng-repeat="status in friend.statuses">
-    <a>{{status.text}}</a>
-  </ul>
+    <h4>{{friend.name}}'s Status:</h4>
+
+    <!-- orderBy: sorterer baklengs etter dato -->
+    <ul ng-repeat="status in friend.statuses |orderBy:'date':true">
+        <p><i class="icon-random"></i> {{status.text}} added: {{status.date | date:'h:mma'}}</p>
+    </ul>
 </div>
