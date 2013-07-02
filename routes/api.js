@@ -27,10 +27,13 @@ exports.register = function(req, res) {
 
 exports.addstatus = function(req, res){
     console.log("new status: " + req.body.text);
+    console.log("email: " + req.body.email);
 
-    User.update({email: req.body.email}, {$push: {statuses: req.body.text}},
-    function(err, user){
-        res.send(user);
+    var date = new Date();
+
+
+    User.update({email: req.body.email}, {$push: {"statuses": {text: req.body.text, date: date}}}, function(err, docs){
+        res.send(docs);
     });
 }
 
