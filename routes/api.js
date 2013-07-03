@@ -45,14 +45,31 @@ exports.friend = function(req, res) {
   });
 };
 
+
+
 exports.addfriend = function(req, res){
+    console.log("friend email: " + req.body.friendemail);
+    console.log("user email: " + req.body.CurrentUserMail);
 
     User.update({ email: req.body.CurrentUserMail},
         {$push: {'friends': req.body.friendemail }},
         function(err, user){
             res.send(user);
-        })
+        }
+    );
+
+
+
+    User.findOne({email: req.body.friendemail}, function(err, docs) {
+        User.update({email: req.body.friendemail}, {$push: {"friend_requests": req.body.CurrentUserMail}},
+            function(err, docs){
+                res.send(docs);
+            });
+
+    });
+
 }
+
 
 exports.deleteoldstatuses = function(req, res){
 

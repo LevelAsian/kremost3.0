@@ -98,10 +98,11 @@ angular.module('myApp.controllers', [])
             }
             else{
                 $http.post('/api/addfriend/', $scope.friend)
-                    .success(function(data){
-                        $location.path('/');
+                    .success(function(){
+
                     });
             }
+            $location.path('/friends');
         }
     });
 

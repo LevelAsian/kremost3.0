@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var db = mongoose.connect('mongodb://localhost/kremosto');
+var db = mongoose.connect('mongodb://localhost/kremosto3');
 
 
 var userSchema = new mongoose.Schema({
@@ -8,6 +8,7 @@ var userSchema = new mongoose.Schema({
   password: String,
   email: String,
   friends: [],
+  friend_requests: [],
   statuses: [{
       text: String,
       startdate:{ type: Date, default: Date.now },
