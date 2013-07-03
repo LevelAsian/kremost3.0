@@ -25,6 +25,7 @@ app.all('/', function(req, res) {
 app.post('/api/addstatus/', api.addstatus)
 app.post('/api/register/', api.register);
 app.post('/api/addfriend/', api.addfriend);
+app.post('/api/deleteoldstatuses/:email', api.deleteoldstatuses);
 
 app.get('/api/login/:email', api.login);
 app.get('/api/friends/:email', api.friends);

@@ -10,7 +10,8 @@ var userSchema = new mongoose.Schema({
   friends: [],
   statuses: [{
       text: String,
-      date: Date
+      startdate:{ type: Date, default: Date.now },
+      enddate: { type: Date, default: Date.now }
   }]
 });
 

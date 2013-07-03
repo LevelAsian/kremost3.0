@@ -21,8 +21,6 @@ angular.module('myApp.controllers', [])
                         $location.path('/friends');
                         currentUser = new Person(User.email, User.name, User.friends);
                         $scope.user=null;
-                        console.log("Heihei");
-                        console.log(User.email);
                     } else {
                         $scope.user.text = 'Try again..';
                     }
@@ -71,13 +69,20 @@ angular.module('myApp.controllers', [])
         }
     })
 
-    .controller('FriendCtrl', function($scope, $routeParams, $http, $location) {
+    .controller('FriendCtrl', function($scope, $routeParams, $http) {
+
         $scope.friend = {};
         $http.get('/api/friend/' + $routeParams.email).
             success(function(data) {
                 $scope.friend.name = data.name;
                 $scope.friend.statuses = data.statuses;
             });
+
+        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
+            .success(function(){
+
+            })
+
     })
     .controller('AddFriendCtrl', function($scope, $location, $http){
         $scope.friend = {};

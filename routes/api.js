@@ -28,10 +28,13 @@ exports.register = function(req, res) {
 exports.addstatus = function(req, res){
     console.log("new status: " + req.body.text);
 
-    var date = new Date();
+    var startdate = new Date();
+    // en status varer i 16 timer.
+    var enddate = new Date(startdate.getTime() + (16*60*60*1000));
 
+    console.log("stardate api: " + startdate.getTime());
 
-    User.update({email: req.body.email}, {$push: {"statuses": {text: req.body.text, date: date}}}, function(err, docs){
+    User.update({email: req.body.email}, {$push: {"statuses": {text: req.body.text, startdate: startdate, enddate: enddate}}}, function(err, docs){
         res.send(docs);
     });
 }
@@ -43,8 +46,6 @@ exports.friend = function(req, res) {
 };
 
 exports.addfriend = function(req, res){
-    console.log("friend email: " + req.body.friendemail);
-    console.log("user email: " + req.body.CurrentUserMail);
 
     User.update({ email: req.body.CurrentUserMail},
         {$push: {'friends': req.body.friendemail }},
@@ -52,4 +53,47 @@ exports.addfriend = function(req, res){
             res.send(user);
         })
 }
+
+exports.deleteoldstatuses = function(req, res){
+
+    var date = new Date();
+    console.log(req.params.email);
+
+    User.findOne({email: req.params.email}, function(err, user){
+        user.statuses.forEach(function(status){
+            var enddate = new Date(status.enddate);
+            if(enddate<date){
+                console.log("delete: " + status.text);
+                // Her slettes statusene
+                User.update({email: user.email}, {$pull: {statuses:{_id:status._id}}}).exec();
+            }else{
+                console.log("keep: " + status.text);
+            }
+        })
+    });
+    res.send();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
