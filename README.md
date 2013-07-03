@@ -11,7 +11,10 @@ patch - notes v0.0.2 X
  - Tid på statuser (At de blir borte)
  - Når statuser ble laget
  - Se på egne statuser
- - Accept friend request / Bra add friend
+ - Accept friend request
+ -     - del 1 - få en friendrequest i databasen din 
+ -     - del 2 - kunne se og akseptere friendrequest
+ - Bra add friend
  - Bare en av hver venn
  - Ikke kunne adde seg selv
  - Phonegap
