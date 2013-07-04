@@ -26,10 +26,12 @@ app.post('/api/addstatus/', api.addstatus)
 app.post('/api/register/', api.register);
 app.post('/api/addfriend/', api.addfriend);
 
+
 app.get('/api/login/:email', api.login);
 app.get('/api/friends/:email', api.friends);
 app.get('/api/friend/:email', api.friend);
-
+app.get('/api/updatefriendlist/:email', api.updatefriendlist);
+app.get('/api/queryforusers/:email', api.queryforusers);
 
 
 var port = process.env.PORT || 3000;

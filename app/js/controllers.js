@@ -7,7 +7,6 @@ function Person(email, name, friends) {
 }
 
 var currentUser = new Person('kurt@gmail.com', 'KURT', ['stiansando@gmail.com', 'kensivalie@gmail.com', 'anders.hua@gmail.com']);
-
 /* Controllers */
 
 angular.module('myApp.controllers', [])
@@ -81,11 +80,23 @@ angular.module('myApp.controllers', [])
         $scope.friend.CurrentUserMail = currentUser.email;
 
         $scope.addFriend = function() {
-            $http.post('/api/addfriend/', $scope.friend)
-                .success(function(data){
-                    $location.path('/');
+
+            $http.get('api/queryforusers/' + $scope.friend.friendemail ).
+                    success(function(data){
+                    $http.get('/api/updatefriendlist/' + currentUser.email).
+                        success(function(User) {
+                            currentUser.friends = User.friends;
+                            if(currentUser.friends.indexOf($scope.friend.friendemail) === -1){
+
+                                $http.post('/api/addfriend/', $scope.friend)
+                                    .success(function(){
+                                        $location.path('/');
+                                    });
+                            } else {
+                                $scope.text = $scope.friend.friendemail + " is already your friend";
+                            }
+                        });
                 });
         }
     });
-
 

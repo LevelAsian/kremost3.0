@@ -11,6 +11,28 @@ exports.login = function(req, res) {
   });
 };
 
+exports.queryforusers = function(req, res){
+    User.findOne({email: req.params.email}, function(err, docs) {
+        if (docs !== null){
+            console.log('if' + docs)
+            res.send({
+                email: docs.email
+            })
+        } else {
+            console.log(req.params.email);
+        }
+
+    });
+};
+
+exports.updatefriendlist = function(req, res){
+    User.findOne({email: req.params.email}, function(err, docs) {
+        res.json({
+            friends: docs.friends
+        });
+    });
+};
+
 exports.friends = function(req, res) {
   User.findOne({email: req.params.email}, function(err, docs) {
     User.where('email').in(docs.friends).exec(function(err2, friends) {
@@ -26,7 +48,6 @@ exports.register = function(req, res) {
 }
 
 exports.addstatus = function(req, res){
-    console.log("new status: " + req.body.text);
 
     User.update({email: req.body.email}, {$push: {statuses: req.body.text}},
     function(err, user){
@@ -41,8 +62,6 @@ exports.friend = function(req, res) {
 };
 
 exports.addfriend = function(req, res){
-    console.log("friend email: " + req.body.friendemail);
-    console.log("user email: " + req.body.CurrentUserMail);
 
     User.update({ email: req.body.CurrentUserMail},
         {$push: {'friends': req.body.friendemail }},
