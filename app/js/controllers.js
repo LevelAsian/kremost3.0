@@ -28,19 +28,20 @@ angular.module('myApp.controllers', [])
                 error(function() {
                     $scope.user.text = 'Try again..';
                     console.log('Nå fucka du opp servern!!! fikser det i v2.')
+                    console.log("heihei");
                 });
         }
     })
 
     .controller('FriendsCtrl', function($scope, $http, $location) {
-      $scope.currentUser = currentUser;
-      $http.get('/api/friends/' + currentUser.email).
-              success(function(friends) {
+        $scope.currentUser = currentUser;
+        $http.get('/api/friends/' + currentUser.email).
+            success(function(friends) {
                 $scope.friends = friends;
-              });
-      $scope.openFriend = function(friend) {
-        $location.path('/friend/' + friend.email);
-      }
+            });
+        $scope.openFriend = function(friend) {
+            $location.path('/friend/' + friend.email);
+        }
     })
 
     .controller('RegisterCtrl', function($scope, $http, $location){
@@ -67,36 +68,51 @@ angular.module('myApp.controllers', [])
         }
     })
 
-    .controller('FriendCtrl', function($scope, $routeParams, $http, $location) {
-      $scope.friend = {};
-      $http.get('/api/friend/' + $routeParams.email).
-              success(function(data) {
+    .controller('FriendCtrl', function($scope, $routeParams, $http) {
+
+        $scope.friend = {};
+        $http.get('/api/friend/' + $routeParams.email).
+            success(function(data) {
                 $scope.friend.name = data.name;
                 $scope.friend.statuses = data.statuses;
-              });
+            });
+
+        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
+            .success(function(){
+
+            })
+
     })
     .controller('AddFriendCtrl', function($scope, $location, $http){
         $scope.friend = {};
         $scope.friend.CurrentUserMail = currentUser.email;
 
+        $scope.test = "";
+
+
         $scope.addFriend = function() {
 
             $http.get('api/queryforusers/' + $scope.friend.friendemail ).
-                    success(function(data){
-                    $http.get('/api/updatefriendlist/' + currentUser.email).
-                        success(function(User) {
-                            currentUser.friends = User.friends;
-                            if(currentUser.friends.indexOf($scope.friend.friendemail) === -1){
+                success(function(data){
+                    if($scope.friend.friendemail == currentUser.email){
+                        $scope.test = "Cannot add yourself as a friend!";
+                    } else{
+                        $http.get('/api/updatefriendlist/' + currentUser.email).
+                            success(function(User) {
+                                currentUser.friends = User.friends;
+                                if(currentUser.friends.indexOf($scope.friend.friendemail) === -1){
 
-                                $http.post('/api/addfriend/', $scope.friend)
-                                    .success(function(){
-                                        $location.path('/');
-                                    });
-                            } else {
-                                $scope.text = $scope.friend.friendemail + " is already your friend";
-                            }
-                        });
-                });
+                                    $http.post('/api/addfriend/', $scope.friend)
+                                        .success(function(){
+                                            $scope.text = "friend request sent";
+                                        });
+                                } else {
+                                    $scope.text = $scope.friend.friendemail + " is already your friend";
+                                }
+                            });
+
+                    }
+                })
         }
     });
 
