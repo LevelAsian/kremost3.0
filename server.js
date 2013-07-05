@@ -33,6 +33,7 @@ app.get('/api/friends/:email', api.friends);
 app.get('/api/friend/:email', api.friend);
 app.get('/api/updatefriendlist/:email', api.updatefriendlist);
 app.get('/api/queryforusers/:email', api.queryforusers);
+app.get('/api/friend_requests/:email', api.friend_requests);
 
 
 var port = process.env.PORT || 3000;

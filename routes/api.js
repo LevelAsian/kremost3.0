@@ -25,6 +25,13 @@ exports.queryforusers = function(req, res){
     });
 };
 
+exports.friend_requests = function(req, res){
+    User.findOne({email: req.params.email}, function(err, docs) {
+        res.send(docs.friend_requests);
+    });
+
+};
+
 exports.updatefriendlist = function(req, res){
     User.findOne({email: req.params.email}, function(err, docs) {
         res.json({

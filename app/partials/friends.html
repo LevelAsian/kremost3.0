@@ -1,6 +1,18 @@
 
 <div id="friendswrapper">
         <a ng-click="openFriend(currentUser)"> <i class="icon-home"></i> {{ currentUser.name }}</a>
+
+        <p>Requests</p>
+        <div ng-repeat="request in requests">
+            <a>{{request}}</a>
+            <p>
+                <a ng-click=acceptRequest()> Accept </a>
+            </p>
+            <p>
+                <a ng-click=declineRequest()> Decline </a>
+            </p>
+        </div>
+
         <div ng-repeat="friend in friends">
             <a ng-click="openFriend(friend)"> <i class="icon-user"></i>{{friend.name}}</a>
         </div>

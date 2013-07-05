@@ -41,7 +41,17 @@ angular.module('myApp.controllers', [])
             });
         $scope.openFriend = function(friend) {
             $location.path('/friend/' + friend.email);
-        }
+        };
+
+
+        $http.get('/api/friend_requests/' + currentUser.email).
+            success(function(data){
+
+                $scope.requests = data;
+
+            });
+
+
     })
 
     .controller('RegisterCtrl', function($scope, $http, $location){
