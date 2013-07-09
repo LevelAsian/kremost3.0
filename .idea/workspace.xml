@@ -4,7 +4,8 @@
     <list default="true" id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friends.html" afterPath="$PROJECT_DIR$/app/partials/friends.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/db.js" afterPath="$PROJECT_DIR$/model/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friend.html" afterPath="$PROJECT_DIR$/app/partials/friend.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -14,14 +15,14 @@
     <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372713933716" ignored="false" />
     <file path="/index.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372608644239" ignored="false" />
     <file path="/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372682910335" ignored="false" />
-    <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925288485" ignored="false" />
-    <file path="/Dummy.txt" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373023437802" ignored="false" />
-    <file path="/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373009010473" ignored="false" />
+    <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373279607121" ignored="false" />
+    <file path="/Dummy.txt" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373357638556" ignored="false" />
+    <file path="/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373309366401" ignored="false" />
     <file path="/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685553444" ignored="false" />
     <file path="/users.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613772786" ignored="false" />
     <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613676782" ignored="false" />
-    <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372690227272" ignored="false" />
-    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372931073449" ignored="false" />
+    <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373307274839" ignored="false" />
+    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373309896895" ignored="false" />
     <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714069300" ignored="false" />
     <file path="/register.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685579517" ignored="false" />
     <file path="/addstatus.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712405121" ignored="false" />
@@ -35,6 +36,7 @@
     <file path="$USER_HOME$/PATCH/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
     <file path="$USER_HOME$/PATCH/kremost3.0/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925303799" ignored="false" />
     <file path="$USER_HOME$/patch2/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373023496008" ignored="false" />
+    <file path="/friend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373306380562" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +56,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.js">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="2" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+            <state line="25" column="39" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="8" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+            <state line="14" column="53" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/db.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="16" column="41" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,16 +86,43 @@
       <file leaf-file-name="friends.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="425" selection-end="425" vertical-scroll-proportion="-8.125">
+            <state line="16" column="35" selection-start="496" selection-end="506" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="friend.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="60" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5826859">
+            <state line="8" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="12" selection-start="3148" selection-end="3148" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="82" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.02111111">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="6" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/partials/login.html" />
         <option value="$PROJECT_DIR$/app/partials/register.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/partials/footer.html" />
@@ -127,12 +155,13 @@
         <option value="$PROJECT_DIR$/app/partials/addstatus.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
+        <option value="$PROJECT_DIR$/app/partials/friends.html" />
         <option value="$PROJECT_DIR$/app/partials/addfriend.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/partials/friend.html" />
         <option value="$PROJECT_DIR$/model/db.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/routes/api.js" />
-        <option value="$PROJECT_DIR$/app/partials/friends.html" />
-        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -156,7 +185,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -167,79 +196,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -289,7 +246,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6703601" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22786885" sideWeight="0.6703601" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13209607" sideWeight="0.6703601" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -392,67 +349,73 @@
         <state line="17" column="45" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/addfriend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11432927" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/addstatus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="87" selection-start="220" selection-end="220" vertical-scroll-proportion="0.20579268" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.7747489" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="326" selection-end="326" vertical-scroll-proportion="0.16643551" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="307" selection-end="307" vertical-scroll-proportion="0.17216642" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="2" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="425" selection-end="425" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="14" column="53" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="60" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5826859">
+        <state line="25" column="39" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/addfriend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="35" selection-end="112" vertical-scroll-proportion="0.06440678" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/addstatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="22" selection-end="113" vertical-scroll-proportion="0.06440678" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="41" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="496" selection-end="506" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="12" selection-start="3148" selection-end="3148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="6" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="82" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.02111111">
           <folding />
         </state>
       </provider>

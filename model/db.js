@@ -13,7 +13,12 @@ var userSchema = new mongoose.Schema({
   statuses: [{
       text: String,
       startdate:{ type: Date, default: Date.now },
-      enddate: { type: Date, default: Date.now }
+      enddate: { type: Date, default: Date.now },
+      comments: [{
+          text: String,
+          by: String,
+          added: {type: Date, default: Date.now}
+      }]
   }]
 });
 

@@ -58,14 +58,31 @@ exports.addstatus = function(req, res){
 
     var startdate = new Date();
     // en status varer i 16 timer.
-    var enddate = new Date(startdate.getTime() + (16*60*60*1000));
+    var enddate = new Date(startdate.getTime() + (12*60*60*1000));
 
     console.log("stardate api: " + startdate.getTime());
+    console.log(req.body.status);
+
 
     User.update({email: req.body.email}, {$push: {"statuses": {text: req.body.text, startdate: startdate, enddate: enddate}}}, function(err, docs){
         res.send(docs);
     });
 }
+
+
+
+exports.comment = function(req, res){
+    var startdate = new Date();
+
+    console.log(req.body);
+
+    User.update({email: req.body.statusowner}, {$push: {"statuses": {"comments": {text: req.body.newcomment, by: req.body.email, added: startdate}}}}, function(err, docs){
+        console.log('update success!!');
+    });
+
+
+}
+
 
 exports.friend = function(req, res) {
   User.findOne({email: req.params.email}, function(err, docs) {
@@ -116,27 +133,3 @@ exports.deleteoldstatuses = function(req, res){
     });
     res.send();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

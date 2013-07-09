@@ -79,13 +79,35 @@ angular.module('myApp.controllers', [])
     })
 
     .controller('FriendCtrl', function($scope, $routeParams, $http) {
-
         $scope.friend = {};
-        $http.get('/api/friend/' + $routeParams.email).
-            success(function(data) {
+        $scope.status = {};
+
+
+        $scope.friend.email = currentUser.email;
+
+
+        $http.get('/api/friend/' + $routeParams.email)
+
+            .success(function(data) {
                 $scope.friend.name = data.name;
                 $scope.friend.statuses = data.statuses;
             });
+
+
+
+        $scope.comment = function(status) {
+            status.commenter = currentUser.email;
+            status.statusowner = $routeParams.email;
+
+            $http.post('/api/comment/', status)
+                .success(function(){
+                  $location.path('/');
+                });
+
+            console.log(status);
+
+            status.newcomment= "";
+        }
 
         $http.post('/api/deleteoldstatuses/' + $routeParams.email)
             .success(function(){
