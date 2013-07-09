@@ -2,32 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/layout.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/login.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/register.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/addfriend.html" afterPath="$PROJECT_DIR$/app/partials/addfriend.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friends.html" afterPath="$PROJECT_DIR$/app/partials/friends.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/db.js" afterPath="$PROJECT_DIR$/model/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/login.html" afterPath="$PROJECT_DIR$/app/partials/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services.js" afterPath="$PROJECT_DIR$/app/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372610013083" ignored="false" />
-    <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372713933716" ignored="false" />
+    <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356353372" ignored="false" />
     <file path="/index.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372608644239" ignored="false" />
-    <file path="/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372682910335" ignored="false" />
-    <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925288485" ignored="false" />
-    <file path="/Dummy.txt" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373023437802" ignored="false" />
-    <file path="/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373009010473" ignored="false" />
-    <file path="/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685553444" ignored="false" />
+    <file path="/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373293177860" ignored="false" />
+    <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373354547002" ignored="false" />
+    <file path="/Dummy.txt" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373275089947" ignored="false" />
+    <file path="/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373353905476" ignored="false" />
+    <file path="/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373293617696" ignored="false" />
     <file path="/users.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613772786" ignored="false" />
-    <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613676782" ignored="false" />
-    <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372690227272" ignored="false" />
-    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372931073449" ignored="false" />
+    <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373291958112" ignored="false" />
+    <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373288772852" ignored="false" />
+    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356027705" ignored="false" />
     <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714069300" ignored="false" />
     <file path="/register.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685579517" ignored="false" />
     <file path="/addstatus.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712405121" ignored="false" />
     <file path="/directives.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372708510790" ignored="false" />
     <file path="/app.css" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714097062" ignored="false" />
-    <file path="/addfriend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372778267177" ignored="false" />
+    <file path="/addfriend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356150118" ignored="false" />
     <file path="$USER_HOME$/PATCH/kremost3.0/app/js/filters.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246078" ignored="false" />
     <file path="$USER_HOME$/PATCH/kremost3.0/app/partials/friend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246078" ignored="false" />
     <file path="$USER_HOME$/PATCH/kremost3.0/routes/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
@@ -35,6 +44,27 @@
     <file path="$USER_HOME$/PATCH/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
     <file path="$USER_HOME$/PATCH/kremost3.0/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925303799" ignored="false" />
     <file path="$USER_HOME$/patch2/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373023496008" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373220342241" ignored="false" />
+    <file path="$USER_HOME$/passport-local/examples/express3-mongoose/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269461073" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373270191955" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/package.json" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266538471" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266773031" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266808058" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269808380" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269313301" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373270279760" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/views/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268184194" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268455456" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/routes/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373267824900" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/views/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269563172" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/loginApp.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268687679" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ejstohtml/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373273700337" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ejstohtml/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373275372534" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/views/layout.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276850083" ignored="false" />
+    <file path="/layout.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276801270" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/views/login.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276840817" ignored="false" />
+    <file path="/login.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373354493483" ignored="false" />
+    <file path="/register.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373355947621" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,53 +83,7 @@
     <favorites_list name="app2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="2" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="8" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="friends.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="425" selection-end="425" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="60" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5826859">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -117,30 +101,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/partials/login.html" />
-        <option value="$PROJECT_DIR$/app/partials/register.html" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/app/partials/footer.html" />
-        <option value="$PROJECT_DIR$/app/js/directives.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/partials/header.html" />
-        <option value="$PROJECT_DIR$/app/partials/addstatus.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/css/app.css" />
-        <option value="$PROJECT_DIR$/app/partials/addfriend.html" />
-        <option value="$PROJECT_DIR$/model/db.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/routes/api.js" />
         <option value="$PROJECT_DIR$/app/partials/friends.html" />
+        <option value="$PROJECT_DIR$/app/login.html" />
+        <option value="$PROJECT_DIR$/app/vendor/login.ejs" />
+        <option value="$PROJECT_DIR$/app/layout.ejs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/model/db.js" />
+        <option value="$PROJECT_DIR$/app/js/services.js" />
+        <option value="$PROJECT_DIR$/app/partials/login.html" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/app/login.ejs" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/register.ejs" />
+        <option value="$PROJECT_DIR$/routes/api.js" />
+        <option value="$PROJECT_DIR$/app/partials/addfriend.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
+    <option name="x" value="1665" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -197,6 +181,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kremost3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kremost3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kremost3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kremost3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -219,31 +231,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kremost3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/patch2/kremost3.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -251,8 +245,8 @@
       <recent name="$PROJECT_DIR$/app/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/partials" />
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -283,22 +277,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
+    <frame x="1665" y="24" width="1535" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6703601" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22786885" sideWeight="0.6703601" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6703601" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.111772485" sideWeight="0.67107004" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -367,92 +361,118 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/services.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/addfriend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11432927" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/addstatus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="87" selection-start="220" selection-end="220" vertical-scroll-proportion="0.20579268" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.7747489" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="326" selection-end="326" vertical-scroll-proportion="0.16643551" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="307" selection-end="307" vertical-scroll-proportion="0.17216642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="2" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+        <state line="14" column="28" selection-start="381" selection-end="381" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="425" selection-end="425" vertical-scroll-proportion="-8.125">
+        <state line="4" column="45" selection-start="151" selection-end="151" vertical-scroll-proportion="0.08645533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10259918">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+        <state line="32" column="29" selection-start="1010" selection-end="1022" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="75" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="24" selection-end="107" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="380" selection-end="380" vertical-scroll-proportion="0.14066853">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="74" column="0" selection-start="1984" selection-end="2131" vertical-scroll-proportion="0.7127223">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/addstatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="133" selection-end="153" vertical-scroll-proportion="0.1945245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="16" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.37465182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="0.55162656">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/addfriend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08486563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="333" selection-end="333" vertical-scroll-proportion="0.18467852">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="60" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5826859">
+        <state line="138" column="23" selection-start="5161" selection-end="5174" vertical-scroll-proportion="0.31337047">
           <folding />
         </state>
       </provider>
