@@ -56,10 +56,4 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
     });
 };
 
-<<<<<<< HEAD
-=======
-// Seed a user
-
-
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
 module.exports = db.model('users', userSchema);

@@ -1,229 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/db.js" afterPath="$PROJECT_DIR$/model/db.js" />
-=======
-    <list default="true" id="af7ed1f9-f262-4a13-b433-7abdc9667e0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/node_modules/bindings/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/_entry.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/bcrypt_lib.node.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib.node.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/bcrypt_lib.node" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib.node" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/bcrypt_lib.target.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/binding.Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/binding.gyp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/blocks-layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/views/boilerplate.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/collection.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/blog/post/comment.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/config.gypi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/views/extra.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/fail.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/filters-custom.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/filters.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/examples/functions.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/blog/home.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/include-chain-2.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/include-chain.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/blog/post/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/thing/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-child-blocks.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-child.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-grandchild-blocks.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-grandchild.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-parent-blocks.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/inherit-parent.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu/item.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/linker.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/examples/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/locals.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu-item.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/mobile.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/views/muppet.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/non-existent-partial.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/para.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/parent-include-chain.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/pet.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/register.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/subfolder/sub-include-chain.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/subfolder/sub-layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/subfolder/subitem-with-layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/subfolder/subitem.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/subfolder/sublocals.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/path/to/thing.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/blog/user.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/user.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-absolute-include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-absolute-sub-include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-blocks.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-include-chain-subfolder.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-include-chain.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/fixtures/with-two-includes.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/wscript" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/context/http/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/all-properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/all-properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/array-argument.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/array-argument.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/test/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/examples/async_compare.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/middleware/authenticate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/passport-local/errors/badrequesterror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/src/bcrypt.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/bcrypt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/src/bcrypt_node.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/benchmark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/node_modules/bindings/bindings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/src/blowfish.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/examples/client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/support/compile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/context/http/context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/test/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/docs/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/docs/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/lib/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/foo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/example/foo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/examples/forever_gen_salt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/examples/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/support/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/passport-local/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/middleware/initialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/examples/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/multiple-properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/multiple-properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/src/node_blf.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/object-argument.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/object-argument.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/node_modules/bindings/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-flash/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pause/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/test/pkginfo-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/test/pkginfo-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/docs/pkginfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/docs/pkginfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/lib/pkginfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/lib/pkginfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/test/repetitions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/http/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/strategies/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/node_modules/pkginfo/examples/single-property.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/node_modules/pkginfo/examples/single-property.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/passport-local/strategy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport/lib/passport/strategy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bcrypt/test/sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs-locals/test/test.partials.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/addfriend.html" afterPath="$PROJECT_DIR$/app/partials/addfriend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/db.js" afterPath="$PROJECT_DIR$/model/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friend.html" afterPath="$PROJECT_DIR$/app/partials/friend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/friends.html" afterPath="$PROJECT_DIR$/app/partials/friends.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/login.html" afterPath="$PROJECT_DIR$/app/partials/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services.js" afterPath="$PROJECT_DIR$/app/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
     </list>
-    <ignored path="kremost3.0.iws" />
+    <ignored path="app2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="af7ed1f9-f262-4a13-b433-7abdc9667e0c" time="1373358140320" ignored="false" />
-    <file path="/friend.html" changelist="af7ed1f9-f262-4a13-b433-7abdc9667e0c" time="1373359811941" ignored="false" />
+    <file path="/package.json" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372610013083" ignored="false" />
+    <file path="/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356353372" ignored="false" />
+    <file path="/index.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372608644239" ignored="false" />
+    <file path="/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373293177860" ignored="false" />
+    <file path="/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373354547002" ignored="false" />
+    <file path="/Dummy.txt" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373275089947" ignored="false" />
+    <file path="/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373353905476" ignored="false" />
+    <file path="/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373293617696" ignored="false" />
+    <file path="/users.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372613772786" ignored="false" />
+    <file path="/services.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373291958112" ignored="false" />
+    <file path="/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373288772852" ignored="false" />
+    <file path="/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356027705" ignored="false" />
+    <file path="/friends.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714069300" ignored="false" />
+    <file path="/register.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372685579517" ignored="false" />
+    <file path="/addstatus.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372712405121" ignored="false" />
+    <file path="/directives.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372708510790" ignored="false" />
+    <file path="/app.css" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372714097062" ignored="false" />
+    <file path="/addfriend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373356150118" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/app/js/filters.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246078" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/app/partials/friend.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246078" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/routes/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/model/db.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925246079" ignored="false" />
+    <file path="$USER_HOME$/PATCH/kremost3.0/server.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1372925303799" ignored="false" />
+    <file path="$USER_HOME$/patch2/kremost3.0/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373023496008" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373220342241" ignored="false" />
+    <file path="$USER_HOME$/passport-local/examples/express3-mongoose/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269461073" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373270191955" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/package.json" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266538471" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266773031" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373266808058" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269808380" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269313301" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373270279760" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/views/index.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268184194" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/controllers.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268455456" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/routes/api.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373267824900" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/views/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373269563172" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ape/app/js/loginApp.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373268687679" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ejstohtml/app.js" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373273700337" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/ejstohtml/login.html" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373275372534" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/views/layout.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276850083" ignored="false" />
+    <file path="/layout.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276801270" ignored="false" />
+    <file path="$USER_HOME$/passportjstest/passport-local/examples/express3-mongoose/views/login.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373276840817" ignored="false" />
+    <file path="/login.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373354493483" ignored="false" />
+    <file path="/register.ejs" changelist="814bee7c-4a2f-40f7-8908-0127e9960485" time="1373355947621" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,33 +67,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="kremost3.0" />
+    <favorites_list name="app2" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="20" column="67" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friends.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
+      <file leaf-file-name="register.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/register.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.7142856">
+            <state line="36" column="62" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friend.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
+      <file leaf-file-name="db.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/db.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="40" column="54" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
+            <state line="57" column="0" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.85636115">
               <folding />
             </state>
           </provider>
@@ -274,7 +101,7 @@
       <file leaf-file-name="friend.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="365" selection-end="365" vertical-scroll-proportion="-5.0">
+            <state line="7" column="6" selection-start="362" selection-end="362" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -283,8 +110,10 @@
       <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="45" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="86" column="45" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1373359974871" expanded="true" signature="2484:2500" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,9 +122,6 @@
         <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="15" selection-start="591" selection-end="591" vertical-scroll-proportion="-11.875">
-=======
-            <state line="7" column="70" selection-start="362" selection-end="362" vertical-scroll-proportion="0.15252294">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
               <folding />
             </state>
           </provider>
@@ -304,29 +130,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="78" column="0" selection-start="2367" selection-end="2803" vertical-scroll-proportion="0.55403554">
-=======
-            <state line="69" column="4" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="42" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
+            <state line="80" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -350,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/partials/friends.html" />
         <option value="$PROJECT_DIR$/app/login.html" />
         <option value="$PROJECT_DIR$/app/vendor/login.ejs" />
@@ -359,36 +162,22 @@
         <option value="$PROJECT_DIR$/app/js/services.js" />
         <option value="$PROJECT_DIR$/app/partials/login.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/login.ejs" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/routes/api.js" />
         <option value="$PROJECT_DIR$/app/partials/addfriend.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/register.ejs" />
-        <option value="$PROJECT_DIR$/model/db.js" />
-=======
-        <option value="$PROJECT_DIR$/routes/api.js" />
-        <option value="$PROJECT_DIR$/model/db.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/app/partials/friend.html" />
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
+        <option value="$PROJECT_DIR$/model/db.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="65" />
-    <option name="y" value="-876" />
+    <option name="x" value="1665" />
+    <option name="y" value="24" />
     <option name="width" value="1535" />
     <option name="height" value="876" />
-=======
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -397,7 +186,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -520,6 +309,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/partials" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -532,7 +331,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -542,36 +341,32 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af7ed1f9-f262-4a13-b433-7abdc9667e0c" name="Default" comment="" />
-      <created>1373358139670</created>
-      <updated>1373358139670</updated>
+      <changelist id="814bee7c-4a2f-40f7-8908-0127e9960485" name="Default" comment="" />
+      <created>1372607845587</created>
+      <updated>1372607845587</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="65" y="-876" width="1535" height="876" extended-state="6" />
-=======
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
+    <frame x="1665" y="24" width="1535" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6703601" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.111772485" sideWeight="0.67107004" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -632,10 +427,11 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10259918">
@@ -679,16 +475,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/addstatus.html">
-=======
-    <entry file="file://$PROJECT_DIR$/model/db.js">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="133" selection-end="153" vertical-scroll-proportion="0.1945245">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="0.55162656">
@@ -701,37 +493,20 @@
     <entry file="file://$PROJECT_DIR$/app/partials/addfriend.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08486563">
-=======
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="42" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/register.ejs">
-=======
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="4" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0">
+        <state line="36" column="62" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friends.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="40" column="54" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
+        <state line="20" column="67" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -745,28 +520,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="365" selection-end="365" vertical-scroll-proportion="-5.0">
+        <state line="7" column="6" selection-start="362" selection-end="362" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="45" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
-=======
-        <state line="4" column="20" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.7142856">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
+        <state line="86" column="45" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373359974871" expanded="true" signature="2484:2500" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/friend.html">
+    <entry file="file://$PROJECT_DIR$/model/db.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="78" column="0" selection-start="2367" selection-end="2803" vertical-scroll-proportion="0.55403554">
-=======
-        <state line="7" column="70" selection-start="362" selection-end="362" vertical-scroll-proportion="0.15252294">
->>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
+        <state line="57" column="0" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.85636115">
           <folding />
         </state>
       </provider>
