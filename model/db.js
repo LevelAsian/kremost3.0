@@ -1,7 +1,11 @@
 /*var mongoose = require('mongoose');
 
 
+<<<<<<< HEAD
  var db = mongoose.connect('mongodb://localhost/kremosto3');
+=======
+var db = mongoose.connect('mongodb://localhost/kremosto4');
+>>>>>>> 31f3936c8092bfdbb33f58c1a77dea77f9e7b46f
 
 
  var userSchema = new mongoose.Schema({

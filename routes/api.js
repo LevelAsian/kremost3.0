@@ -95,6 +95,18 @@ exports.addfriend = function(req, res){
 
 }
 
+exports.acceptRequest = function(req, res){
+
+    console.log("user: " + req.body.currentmail);
+    console.log("friend: " + req.body.email);
+
+    User.update({email: req.body.currentmail},
+        {$push: {'friends': req.body.email}},
+        function(err, user){
+        res.send(user);
+    });
+};
+
 
 exports.deleteoldstatuses = function(req, res){
 

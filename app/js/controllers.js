@@ -28,6 +28,27 @@ angular.module('myApp.controllers', [])
             });
 
 
+        $scope.acceptRequest = function(request) {
+
+            console.log("hei: " + currentUser.email);
+            console.log("requests er: " + request);
+            $scope.requester = {};
+            $scope.requester.currentmail = currentUser.email;
+            $scope.requester.email = request;
+            console.log("heihei" + $scope.requester.email);
+            console.log(currentUser.friends);
+
+
+
+            $http.post('/api/acceptRequest/', $scope.requester)
+                .success(function(){
+                   console.log("accepted friend req");
+                });
+
+
+        }
+
+
     })
 
     .controller('RegisterCtrl', function($scope, $http, $location){
@@ -80,6 +101,8 @@ angular.module('myApp.controllers', [])
 
 
         $scope.addFriend = function() {
+
+
 
             $http.get('api/queryforusers/' + $scope.friend.friendemail ).
                 success(function(data){
