@@ -1,31 +1,9 @@
-/*var mongoose = require('mongoose');
 
-
-<<<<<<< HEAD
- var db = mongoose.connect('mongodb://localhost/kremosto3');
-=======
-var db = mongoose.connect('mongodb://localhost/kremosto4');
->>>>>>> 31f3936c8092bfdbb33f58c1a77dea77f9e7b46f
-
-
- var userSchema = new mongoose.Schema({
-     name: String,
-     password: String,
-     email: String,
-     friends: [],
-     friend_requests: [],
-     statuses: [{
-     text: String,
-     startdate:{ type: Date, default: Date.now },
-     enddate: { type: Date, default: Date.now }
-    }]
- });
-
- module.exports = db.model('users', userSchema);  */
 
 var mongoose = require('mongoose')
     , bcrypt = require('bcrypt')
     , SALT_WORK_FACTOR = 10;
+
 
 mongoose.connect('mongodb://localhost/test123')
 var db = mongoose.connection;
@@ -44,7 +22,12 @@ var userSchema = mongoose.Schema({
     statuses: [{
         text: String,
         startdate:{ type: Date, default: Date.now },
-        enddate: { type: Date, default: Date.now }
+        enddate: { type: Date, default: Date.now },
+        comments: [{
+            text: String,
+            by: String,
+            added: {type: Date, default: Date.now}
+        }]
     }]
 });
 
@@ -73,4 +56,10 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
     });
 };
 
+<<<<<<< HEAD
+=======
+// Seed a user
+
+
+>>>>>>> 272623dbe40841e48d9d8b710c77f65d81472a5d
 module.exports = db.model('users', userSchema);

@@ -51,6 +51,23 @@ angular.module('myApp.controllers', [])
 
     })
 
+    .controller('FriendCtrl', function($scope, $routeParams, $http) {
+
+        $scope.friend = {};
+        $http.get('/api/friend/' + $routeParams.email).
+            success(function(data) {
+                $scope.friend.name = data.name;
+                $scope.friend.statuses = data.statuses;
+            });
+
+        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
+            .success(function(){
+
+            })
+
+    })
+
+
     .controller('RegisterCtrl', function($scope, $http, $location){
         $scope.user = {};
 
@@ -76,21 +93,7 @@ angular.module('myApp.controllers', [])
         }
     })
 
-    .controller('FriendCtrl', function($scope, $routeParams, $http) {
 
-        $scope.friend = {};
-        $http.get('/api/friend/' + $routeParams.email).
-            success(function(data) {
-                $scope.friend.name = data.name;
-                $scope.friend.statuses = data.statuses;
-            });
-
-        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
-            .success(function(){
-
-            })
-
-    })
     .controller('AddFriendCtrl', function($scope, $location, $http, $rootScope){
         var currentUser = $rootScope.GlobalCurrentUser;
 

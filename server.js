@@ -4,7 +4,6 @@ var path     = require('path')
     , api      = require('./routes/api')
     , passport = require('passport')
     , LocalStrategy = require('passport-local').Strategy
-    , mongodb = require('mongodb')
     , mongoose = require('mongoose')
     , bcrypt = require('bcrypt')
     , SALT_WORK_FACTOR = 10;
@@ -70,7 +69,7 @@ app.use("/app", express.static(path.resolve(__dirname, "./app")));
 app.use("/app", function(req, res, next) {
   res.send(404);
 });
-app.use(express.logger('tiny')); // Log requests to the console
+app.use(express.logger('dev')); // Log requests to the console
 
 // This is the route that sends the base index.html file all other routes are
 // for data only, no server-side views here.
@@ -87,7 +86,8 @@ app.get('/register', function(req, res){
 });
 
 //API
-app.post('/api/addstatus/', api.addstatus)
+app.post('/api/addstatus/', api.addstatus);
+app.post('/api/comment/', api.comment);
 app.post('/api/register/', api.register);
 app.post('/api/addfriend/', api.addfriend);
 app.post('/api/acceptRequest/', api.acceptRequest);
