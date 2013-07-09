@@ -2,12 +2,12 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 'myApp.controllers']).
+var app = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 'myApp.controllers']).
     config(['$routeProvider', function($routeProvider) {
 
         $routeProvider.when('/', {
-            templateUrl: '/app/partials/login.html',
-            controller: 'LoginCtrl'});
+            templateUrl: '/app/partials/friends.html',
+            controller: 'FriendsCtrl'});
 
         $routeProvider.when('/friends', {
             templateUrl: '/app/partials/friends.html',
@@ -32,3 +32,14 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 
         $routeProvider.otherwise({
             redirectTo: '/'});
     }]);
+
+app.run(function ($rootScope, $http) {
+    $http.get('/getUser')
+        .success(function(user){
+            $rootScope.GlobalCurrentUser = user;
+        });
+
+
+
+    $rootScope.globalVariable = 'Amadou'; //global variable
+});

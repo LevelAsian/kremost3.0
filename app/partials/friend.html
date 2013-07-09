@@ -3,16 +3,6 @@
 
     <!-- orderBy: sorterer baklengs etter dato -->
     <ul ng-repeat="status in friend.statuses | StatusDateFilter | orderBy:'startdate':true">
-        <p> {{status.text}} <i class="icon-random"> </i> added: {{status.startdate | date:'H:mm'}} expires:{{status.enddate | date:'H:mm'}} </p>
-
-    <input type="text" ng-model="status.newcomment" placeholder="Write a comment...">
-
-
-     <br>
-    <button class="btn" ng-click="comment(status)">Comment</button>
-    <br>
-    <br>
+        <p>added: {{status.startdate | date:'H:mm'}} expires:{{status.enddate | date:'H:mm'}} <i class="icon-random"></i> {{status.text}}</p>
     </ul>
-
-
 </div>

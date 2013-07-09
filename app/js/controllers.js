@@ -1,39 +1,15 @@
 'use strict';
 
-function Person(email, name, friends) {
-    this.email = email;
-    this.name = name;
-    this.friends = friends;
-}
-
-var currentUser = new Person('kurt@gmail.com', 'KURT', ['stiansando@gmail.com', 'kensivalie@gmail.com', 'anders.hua@gmail.com']);
-/* Controllers */
-
 angular.module('myApp.controllers', [])
 
-    .controller('LoginCtrl', function($scope, $http, $location) {
-        $scope.user = {};
-        $scope.login = function() {
-            $http.get('/api/login/' + $scope.user.email).
-                success(function(User) {
-                    if($scope.user.password == User.password) {
-                        $location.path('/friends');
-                        currentUser = new Person(User.email, User.name, User.friends);
-                        $scope.user=null;
-                    } else {
-                        $scope.user.text = 'Try again..';
-                    }
-
-                }).
-                error(function() {
-                    $scope.user.text = 'Try again..';
-                    console.log('Nå fucka du opp servern!!! fikser det i v2.')
-                    console.log("heihei");
-                });
-        }
+    .controller('LoginCtrl', function($scope, $http, $location, $rootScope) {
+        console.log("global username: " + $rootScope.GlobalCurrentUser.name);
+        console.log("global email: " + $rootScope.GlobalCurrentUser.email);
+        console.log("gloabl password: " + $rootScope.GlobalCurrentUser.password);
     })
 
-    .controller('FriendsCtrl', function($scope, $http, $location) {
+    .controller('FriendsCtrl', function($scope, $http, $location, $rootScope) {
+        var currentUser = $rootScope.GlobalCurrentUser;
         $scope.currentUser = currentUser;
         $http.get('/api/friends/' + currentUser.email).
             success(function(friends) {
@@ -52,7 +28,45 @@ angular.module('myApp.controllers', [])
             });
 
 
+        $scope.acceptRequest = function(request) {
+
+            console.log("hei: " + currentUser.email);
+            console.log("requests er: " + request);
+            $scope.requester = {};
+            $scope.requester.currentmail = currentUser.email;
+            $scope.requester.email = request;
+            console.log("heihei" + $scope.requester.email);
+            console.log(currentUser.friends);
+
+
+
+            $http.post('/api/acceptRequest/', $scope.requester)
+                .success(function(){
+                   console.log("accepted friend req");
+                });
+
+
+        }
+
+
     })
+
+    .controller('FriendCtrl', function($scope, $routeParams, $http) {
+
+        $scope.friend = {};
+        $http.get('/api/friend/' + $routeParams.email).
+            success(function(data) {
+                $scope.friend.name = data.name;
+                $scope.friend.statuses = data.statuses;
+            });
+
+        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
+            .success(function(){
+
+            })
+
+    })
+
 
     .controller('RegisterCtrl', function($scope, $http, $location){
         $scope.user = {};
@@ -65,7 +79,8 @@ angular.module('myApp.controllers', [])
         }
     })
 
-    .controller('AddStatusCtrl', function($scope, $http, $location){
+    .controller('AddStatusCtrl', function($scope, $http, $location, $rootScope){
+        var currentUser = $rootScope.GlobalCurrentUser;
         $scope.status = {};
         $scope.status.email = currentUser.email;
 
@@ -78,44 +93,10 @@ angular.module('myApp.controllers', [])
         }
     })
 
-    .controller('FriendCtrl', function($scope, $routeParams, $http) {
-        $scope.friend = {};
-        $scope.status = {};
 
+    .controller('AddFriendCtrl', function($scope, $location, $http, $rootScope){
+        var currentUser = $rootScope.GlobalCurrentUser;
 
-        $scope.friend.email = currentUser.email;
-
-
-        $http.get('/api/friend/' + $routeParams.email)
-
-            .success(function(data) {
-                $scope.friend.name = data.name;
-                $scope.friend.statuses = data.statuses;
-            });
-
-
-
-        $scope.comment = function(status) {
-            status.commenter = currentUser.email;
-            status.statusowner = $routeParams.email;
-
-            $http.post('/api/comment/', status)
-                .success(function(){
-                  $location.path('/');
-                });
-
-            console.log(status);
-
-            status.newcomment= "";
-        }
-
-        $http.post('/api/deleteoldstatuses/' + $routeParams.email)
-            .success(function(){
-
-            })
-
-    })
-    .controller('AddFriendCtrl', function($scope, $location, $http){
         $scope.friend = {};
         $scope.friend.CurrentUserMail = currentUser.email;
 
@@ -123,6 +104,8 @@ angular.module('myApp.controllers', [])
 
 
         $scope.addFriend = function() {
+
+
 
             $http.get('api/queryforusers/' + $scope.friend.friendemail ).
                 success(function(data){

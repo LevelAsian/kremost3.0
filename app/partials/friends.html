@@ -6,7 +6,7 @@
         <div ng-repeat="request in requests">
             <a>{{request}}</a>
             <p>
-                <a ng-click=acceptRequest()> Accept </a>
+                <a ng-click=acceptRequest(request)> Accept </a>
             </p>
             <p>
                 <a ng-click=declineRequest()> Decline </a>
