@@ -73,15 +73,4 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
     });
 };
 
-// Seed a user
-var User = mongoose.model('User', userSchema);
-var user = new User({ name: 'bob', email: 'bob@example.com', password: 'secret' });
-user.save(function(err) {
-    if(err) {
-        console.log(err);
-    } else {
-        console.log('user: ' + user.username + " saved.");
-    }
-});
-
 module.exports = db.model('users', userSchema);
