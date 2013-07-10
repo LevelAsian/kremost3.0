@@ -93,6 +93,8 @@ app.post('/api/addfriend/', api.addfriend);
 app.post('/api/acceptRequest/', api.acceptRequest);
 app.post('/api/deleteoldstatuses/:email', api.deleteoldstatuses);
 
+
+
 app.get('/api/GetOneUser/:email', api.GetOneUser);
 app.get('/api/friends/:email', api.friends);
 app.get('/api/friend/:email', api.friend);
