@@ -59,7 +59,4 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
     });
 };
 
-// Seed a user
-
-
 module.exports = db.model('users', userSchema);
